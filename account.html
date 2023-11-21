@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="d-flex justify-content-between">
+      <div style="width: 600px">
+        <h2 class="text-center">Mom</h2>
+        <div>
+          <fieldset class="text-center">
+            <div class="mb-4">
+              <label for="initmom">Initial Amount</label>
+              <input type="number" id="initmom" />
+              <button type="button" class="mominitbtn btn btn-primary">
+                send
+              </button>
+            </div>
+            <div class="mb-4">
+              <label for="dpositmom">Amount to deposit</label>
+              <input type="number" id="dpositmom" />
+              <button type="button" class="momdepositbtn btn btn-success">
+                send
+              </button>
+            </div>
+            <div class="mb-4">
+              <label for="withdrawmom">Amount to withdraw</label>
+              <input type="number" id="withdrawmom" />
+              <button type="button" class="momwithdrawbtn btn btn-danger">
+                send
+              </button>
+            </div>
+          </fieldset>
+        </div>
+        <h3 class="text-center">saldo</h3>
+        <p class="restmom text-center"></p>
+        <h3 class="text-center">deposito</h3>
+        <p class="depositamountmom text-center"></p>
+        <h3 class="text-center">prelievo</h3>
+        <p class="withdrawamountmom text-center"></p>
+      </div>
+      <div style="width: 600px">
+        <h2 class="text-center">Son</h2>
+        <div>
+          <fieldset class="text-center">
+            <div class="mb-4">
+              <label for="initson">Initial Amount</label>
+              <input type="number" id="initson" />
+              <button type="button" class="soninitbtn btn btn-primary">
+                send
+              </button>
+            </div>
+            <div class="mb-4">
+              <label for="dpositson">Amount to deposit</label>
+              <input type="number" id="dpositson" />
+              <button type="button" class="sondepositbtn btn btn-success">
+                send
+              </button>
+            </div>
+            <div class="mb-4">
+              <label for="withdrawson">Amount to withdraw</label>
+              <input type="number" id="withdrawson" />
+              <button type="button" class="sonwithdrawbtn btn btn-danger">
+                send
+              </button>
+            </div>
+          </fieldset>
+        </div>
+        <p class="depositamountson"></p>
+        <p class="withdrawamountson"></p>
+        <p class="restson"></p>
+      </div>
+    </div>
+    <script src="/account.js"></script>
+  </body>
+</html>
